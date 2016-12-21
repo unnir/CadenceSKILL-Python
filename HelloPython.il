@@ -6,7 +6,7 @@
 				) 
 		ipcWaitForProcess( childPID )  ;wait for process
 		 
-		ipcWriteProcess( childPID strcat(" & hello Python " "\n") ) ; !important! add \n to the end of your string 
+		ipcWriteProcess( childPID strcat("& hello Python " "\n") ) ; !important! add \n to the end of your string 
 	
 		result = ipcReadProcess( childPID 1) ; read 
 	
