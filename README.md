@@ -1,2 +1,2 @@
 # CadenceSKILL-Python
-Inter Process Communication (IPC) between Cadence Virtuoso and Python script. 
+Inter Process Communication (IPC) between Cadence Virtuoso (SKILL) and Python script. 
