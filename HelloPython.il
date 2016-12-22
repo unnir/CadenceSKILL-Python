@@ -4,7 +4,7 @@
 			simplifyFilename(  ;Returns the fully expanded name of the file
 				"./IPC/CadenceSKILL-Python/HelloCadence.py");Path to the python file
 				) 
-		ipcWaitForProcess( childPID )  ;wait for process
+		ipcWaitForProcess( childPID )  ; wait for a process
 		 
 		ipcWriteProcess( childPID strcat("& hello Python " "\n") ) ; !important! add \n to the end of your string 
 	
@@ -16,5 +16,4 @@
 	) ; let 
 ) ; procedure
 
-;to use write in the CIW 
-;(HelloPython )
+;to use run (HelloPython ) in the CIW 
